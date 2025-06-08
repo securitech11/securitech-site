@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SECURITECH SOLUTIONS</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-yH8r6j9RQWgxA9XRHuEKFkJ5rCJndzqY3bf6kz2wzzfH04KbbowMiOElZ1D8+nIYavkVa+R0J+Z7GTV/x+eDqw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <img src="images/logo-securitech.png" alt="Logo Securitech Solutions" style="height: 60px;" />
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil" class="hero">
+    <h2>Votre partenaire en sécurité électronique et infrastructures réseau</h2>
+    <p>Solutions de sécurité fiables et conformes aux normes internationales.</p>
+  </section>
+
+  <section id="apropos" class="section">
+    <h2>À propos</h2>
+    <p>
+      SECURITECH SOLUTIONS est basée à Casablanca et propose des solutions de pointe en sécurité électronique et infrastructures réseau. Notre engagement : des services personnalisés et une expertise multisectorielle.
+    </p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Nos Services</h2>
+    <ul>
+      <li><i class="fas fa-video"></i><strong>Vidéo Surveillance :</strong> systèmes complexes clé en main.</li>
+      <li><i class="fas fa-fire-extinguisher"></i><strong>Détection Incendie :</strong> conception, installation et gestion complète.</li>
+      <li><i class="fas fa-bell"></i><strong>Alarme Anti-Intrusion :</strong> solutions sur mesure avec dernières technologies.</li>
+      <li><i class="fas fa-door-closed"></i><strong>Contrôle d’Accès :</strong> sécurisation des entrées et gestion des zones sensibles.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p><i class="fas fa-map-marker-alt"></i> 64 Rue Abdellah El Mediouni, Casablanca</p>
+    <p><i class="fas fa-phone"></i> +212 695 44 68 96 / +212 619 38 00 58</p>
+    <p><i class="fas fa-envelope"></i> solutionssecuritech@gmail.com</p>
+    <form action="#" method="POST">
+      <input type="text" name="nom" placeholder="Votre nom" required />
+      <input type="email" name="email" placeholder="Votre email" required />
+      <textarea name="message" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SECURITECH SOLUTIONS. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
